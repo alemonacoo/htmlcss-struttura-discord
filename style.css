@@ -11,12 +11,6 @@
     height: max-content;
 }
 
-header{
-height: 80vh;
-background-color: grey;
-border: solid black 5px;
-}
-
 section{
     height: 80vh;
     background-color: aquamarine;
@@ -30,3 +24,61 @@ footer{
     border: solid black 5px;
 }
 
+/* Header */
+header{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    background-color: grey;
+    border: solid black 5px;
+    }
+
+.menu-bar{
+    display: flex;
+    flex-direction: row;
+    height: 15%;
+    width: 90%;
+    margin: auto;
+    background-color: aqua;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu-items{
+    display: flex;
+}
+
+.menu-item{
+    height: 40px;
+    width: 7vW;
+    background-color: aliceblue;
+    border: solid black 2px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    width: 90%;
+    margin: auto;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-text{
+    width: 60%;
+    height: 40%;
+    background-color: bisque;
+}
+
+.download-buttons{
+    height: 20%;
+    width: 60%;
+    background-color: beige;
+}
+
+
+
+
+/* / Header */
