@@ -1,9 +1,9 @@
-
+/* General Layout */
 *{
     margin: 0%;
+    box-sizing: border-box;
+    
 }
-
-/* Homepage Layout */
 .homepage{
     display: flex;
     background-color: lightgrey;
@@ -11,20 +11,12 @@
     height: max-content;
 }
 
-footer{
-    height: 400px;
-    background-color: blue;
-    height: 70vh;
-    border: solid black 5px;
-}
 
 /* Header */
 header{
-    display: flex;
-    flex-direction: column;
     height: 60vh;
     background-color: grey;
-    }
+}
 
 .menu-bar{
     display: flex;
@@ -45,7 +37,7 @@ header{
     height: 5vh;
     width: 7vW;
     background-color: aliceblue;
-    border: solid black 2px;
+    border: solid black 1px;
 }
 
 .title{
@@ -111,3 +103,54 @@ section:nth-child(5){
     width: 40%;
     background-color: pink;
 }
+
+/* Footer */
+footer{
+    height: 70vh;
+    background-color: grey;
+    padding: 5% 10% 5% 10%;
+}
+
+.big-container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+
+}
+
+.resources-lists{
+    height: 100%;
+    width: 20%;
+    background-color: aliceblue;
+    border: solid black 1px;
+}
+
+
+.small-container{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.final-logo{
+    height: 100%;
+    width: 20%;
+    background-color: aliceblue;
+    border: solid black 1px;
+}
+
+.subscribe{
+    height: 100%;
+    width: 20%;
+    background-color: aliceblue;
+    border: solid black 1px;
+}
+
+
+
+
+
+
+
+
