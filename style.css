@@ -11,12 +11,6 @@
     height: max-content;
 }
 
-section{
-    height: 80vh;
-    background-color: aquamarine;
-    border: solid black 5px;
-}
-
 footer{
     height: 400px;
     background-color: blue;
@@ -30,14 +24,13 @@ header{
     flex-direction: column;
     height: 60vh;
     background-color: grey;
-    border: solid black 5px;
     }
 
 .menu-bar{
     display: flex;
     flex-direction: row;
     height: 15%;
-    width: 90%;
+    width: 80%;
     margin: auto;
     background-color: aqua;
     align-items: center;
@@ -49,7 +42,7 @@ header{
 }
 
 .menu-item{
-    height: 40px;
+    height: 5vh;
     width: 7vW;
     background-color: aliceblue;
     border: solid black 2px;
@@ -59,7 +52,7 @@ header{
     display: flex;
     flex-direction: column;
     height: 85%;
-    width: 90%;
+    width: 80%;
     margin: auto;
     background-color: blue;
     justify-content: center;
@@ -78,7 +71,43 @@ header{
     background-color: beige;
 }
 
-
-
-
 /* / Header */
+section{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section:nth-child(3){
+    background-color: greenyellow;
+    flex-direction: row-reverse;
+}
+
+section:nth-child(5){
+    height: 140vh;
+    flex-direction: column;
+    background-color: green;
+    align-items: center;
+
+}
+.presentation-image{
+    height: 40%;
+    width: 40%;
+    background-color: beige;
+}
+
+.image-description{
+   height: 40%;
+   width: 40%;
+   background-color: bisque;
+}
+.download-button-2{
+    height: 40%;
+    width: 40%;
+    background-color: pink;
+}
