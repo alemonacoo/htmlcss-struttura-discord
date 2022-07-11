@@ -1,0 +1,32 @@
+
+*{
+    margin: 0%;
+}
+
+/* Homepage Layout */
+.homepage{
+    display: flex;
+    background-color: lightgrey;
+    flex-direction: column;
+    height: max-content;
+}
+
+header{
+height: 80vh;
+background-color: grey;
+border: solid black 5px;
+}
+
+section{
+    height: 80vh;
+    background-color: aquamarine;
+    border: solid black 5px;
+}
+
+footer{
+    height: 400px;
+    background-color: blue;
+    height: 70vh;
+    border: solid black 5px;
+}
+
