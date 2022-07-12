@@ -124,12 +124,12 @@ section img{
    width: 20%;
 }
 
-section:nth-child(3){
+section:nth-of-type(2){
     background-color: rgb(246, 246, 246);
     flex-direction: row-reverse;
 }
 
-section:nth-child(5){
+section:last-of-type{
     background-color: rgb(246, 246, 246);
     height: 170vh;
     flex-direction: column;
@@ -137,12 +137,12 @@ section:nth-child(5){
     align-content: center;
 }
 
-section:nth-child(5) .image-description{
+section:last-of-type .image-description{
     justify-content: center;
     height: auto;
     width: 50%;
 }
-section:nth-child(5) img{
+section:last-of-type img{
     height: 60%;
     width: 80%;
 }
@@ -157,7 +157,7 @@ section:nth-child(5) img{
     background-size: contain;
     align-items: center;
 }
-section:nth-child(5) .mac-download{
+section:last-of-type .mac-download{
     background-color: rgb(143,162,223);
     color: white;
 }
@@ -193,8 +193,8 @@ footer{
 }
 
 .resources-lists:first-of-type img{
+    font-size: 25px;
     height: 15px;
-    width: auto;
 }
 
 
@@ -221,6 +221,7 @@ ul{
     height: 100%;
     width: 20%;
 }
+
 
 .subscribe{
     display: flex;
