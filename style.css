@@ -158,7 +158,7 @@ section:nth-child(5) img{
     align-items: center;
 }
 section:nth-child(5) .mac-download{
-    background-color: purple;
+    background-color: rgb(143,162,223);
     color: white;
 }
 /* /Sections */
