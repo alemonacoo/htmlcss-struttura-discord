@@ -166,24 +166,47 @@ section:nth-child(5) .mac-download{
 /* Footer */
 footer{
     height: 70vh;
-    background-color: grey;
+    background-color: rgb(35,39,42, 0.95);
     padding: 5% 10% 5% 10%;
 }
 
 .big-container{
     height: 80%;
     width: 100%;
-    display: flex;
-
+    display:flex;
+    justify-content: space-between;
+    border-bottom: solid rgb(115,139,215) 2px;
 }
 
 .resources-lists{
     height: 100%;
-    width: 20%;
-    background-color: aliceblue;
-    border: solid black 1px;
+    color: white;
 }
 
+.resources-lists:first-of-type{
+    width: 30%;
+    line-height: 35px;
+}
+
+.resources-lists:first-of-type h4{
+    font-size: 25px;
+}
+
+.resources-lists:first-of-type img{
+    height: 15px;
+    width: auto;
+}
+
+
+.resources-lists h4{
+    color: rgb(115,139,215);
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    line-height: 35px;
+}
 
 .small-container{
     height: 20%;
@@ -193,18 +216,26 @@ footer{
 }
 
 .final-logo{
+    display: flex;
+    align-items: center;
     height: 100%;
     width: 20%;
-    background-color: aliceblue;
-    border: solid black 1px;
 }
 
 .subscribe{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
     height: 100%;
     width: 20%;
-    background-color: aliceblue;
-    border: solid black 1px;
 }
+
+.subscribe .login{
+    background-color: rgb(115,139,215);
+    color: white;
+}
+
+
 
 
 
