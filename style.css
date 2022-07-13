@@ -8,7 +8,6 @@
 .homepage{
     display: flex;
     flex-direction: column;
-    height: max-content;
 }
 
 
@@ -146,6 +145,7 @@ section:last-of-type img{
     height: 60%;
     width: 80%;
 }
+
 
 .question{
     display: flex;
